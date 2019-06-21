@@ -10,12 +10,12 @@ namespace VideoPokerAssistant
 {
     public class Program
     {
-        public void Main(string[] args)
+        public static void Main(string[] args)
         {
             poker();
         }
 
-        public void poker()
+        public static void poker()
         {
             Poker poker = new Poker();
             poker.start();
